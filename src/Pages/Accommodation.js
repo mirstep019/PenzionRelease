@@ -224,7 +224,7 @@ const FeaturesList = styled.ul`
     margin: 20px auto;
   }
   @media (max-width: 480px) {
-    padding: 0px;
+    padding: 0px; //zkouska
   }
 `;
 
