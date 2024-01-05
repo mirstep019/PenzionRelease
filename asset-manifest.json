@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/penzionbreuer.cz/static/css/main.9e8ba75d.css",
-    "main.js": "/penzionbreuer.cz/static/js/main.ee94b427.js",
-    "static/js/787.06ee9ce9.chunk.js": "/penzionbreuer.cz/static/js/787.06ee9ce9.chunk.js",
-    "static/media/Penzion-Main.mp4": "/penzionbreuer.cz/static/media/Penzion-Main.d8266b0dd72e40d9ae21.mp4",
-    "static/media/pilistata.JPG": "/penzionbreuer.cz/static/media/pilistata.5be987a5938c70cc3b7d.JPG",
-    "static/media/ubytovani.JPG": "/penzionbreuer.cz/static/media/ubytovani.a48367c1d9e74d1fadad.JPG",
-    "static/media/kamenec-leto.jpg": "/penzionbreuer.cz/static/media/kamenec-leto.bfc42a27eaf8eeb26d25.jpg",
-    "static/media/krajina.JPG": "/penzionbreuer.cz/static/media/krajina.ffa35356d40b765c7c08.JPG",
-    "static/media/4luzko.jpeg": "/penzionbreuer.cz/static/media/4luzko.2ceffef94ebc41c9307f.jpeg",
-    "static/media/velkypokoj.jpeg": "/penzionbreuer.cz/static/media/velkypokoj.e63d5c6c8ef728bf9dc8.jpeg",
-    "static/media/apartman.jpeg": "/penzionbreuer.cz/static/media/apartman.181cfde23aada0ddfd5c.jpeg",
-    "static/media/2luzko.jpeg": "/penzionbreuer.cz/static/media/2luzko.23726094bb8e47566155.jpeg",
-    "static/media/logo.svg": "/penzionbreuer.cz/static/media/logo.d4b741b852edbe3dd7e1a6accba9e588.svg",
-    "index.html": "/penzionbreuer.cz/index.html",
-    "main.9e8ba75d.css.map": "/penzionbreuer.cz/static/css/main.9e8ba75d.css.map",
-    "main.ee94b427.js.map": "/penzionbreuer.cz/static/js/main.ee94b427.js.map",
-    "787.06ee9ce9.chunk.js.map": "/penzionbreuer.cz/static/js/787.06ee9ce9.chunk.js.map"
+    "main.css": "/static/css/main.9e8ba75d.css",
+    "main.js": "/static/js/main.d7b993fd.js",
+    "static/js/787.06ee9ce9.chunk.js": "/static/js/787.06ee9ce9.chunk.js",
+    "static/media/Penzion-Main.mp4": "/static/media/Penzion-Main.d8266b0dd72e40d9ae21.mp4",
+    "static/media/pilistata.JPG": "/static/media/pilistata.5be987a5938c70cc3b7d.JPG",
+    "static/media/ubytovani.JPG": "/static/media/ubytovani.a48367c1d9e74d1fadad.JPG",
+    "static/media/kamenec-leto.jpg": "/static/media/kamenec-leto.bfc42a27eaf8eeb26d25.jpg",
+    "static/media/krajina.JPG": "/static/media/krajina.ffa35356d40b765c7c08.JPG",
+    "static/media/4luzko.jpeg": "/static/media/4luzko.2ceffef94ebc41c9307f.jpeg",
+    "static/media/velkypokoj.jpeg": "/static/media/velkypokoj.e63d5c6c8ef728bf9dc8.jpeg",
+    "static/media/apartman.jpeg": "/static/media/apartman.181cfde23aada0ddfd5c.jpeg",
+    "static/media/2luzko.jpeg": "/static/media/2luzko.23726094bb8e47566155.jpeg",
+    "static/media/logo.svg": "/static/media/logo.d4b741b852edbe3dd7e1a6accba9e588.svg",
+    "index.html": "/index.html",
+    "main.9e8ba75d.css.map": "/static/css/main.9e8ba75d.css.map",
+    "main.d7b993fd.js.map": "/static/js/main.d7b993fd.js.map",
+    "787.06ee9ce9.chunk.js.map": "/static/js/787.06ee9ce9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e8ba75d.css",
-    "static/js/main.ee94b427.js"
+    "static/js/main.d7b993fd.js"
   ]
 }
