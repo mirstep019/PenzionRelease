@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/PenzionRelease/static/css/main.9e8ba75d.css",
-    "main.js": "/PenzionRelease/static/js/main.627a29be.js",
-    "static/js/787.06ee9ce9.chunk.js": "/PenzionRelease/static/js/787.06ee9ce9.chunk.js",
-    "static/media/Penzion-Main.mp4": "/PenzionRelease/static/media/Penzion-Main.d8266b0dd72e40d9ae21.mp4",
-    "static/media/pilistata.JPG": "/PenzionRelease/static/media/pilistata.5be987a5938c70cc3b7d.JPG",
-    "static/media/ubytovani.JPG": "/PenzionRelease/static/media/ubytovani.a48367c1d9e74d1fadad.JPG",
-    "static/media/kamenec-leto.jpg": "/PenzionRelease/static/media/kamenec-leto.bfc42a27eaf8eeb26d25.jpg",
-    "static/media/krajina.JPG": "/PenzionRelease/static/media/krajina.ffa35356d40b765c7c08.JPG",
-    "static/media/4luzko.jpeg": "/PenzionRelease/static/media/4luzko.2ceffef94ebc41c9307f.jpeg",
-    "static/media/velkypokoj.jpeg": "/PenzionRelease/static/media/velkypokoj.e63d5c6c8ef728bf9dc8.jpeg",
-    "static/media/apartman.jpeg": "/PenzionRelease/static/media/apartman.181cfde23aada0ddfd5c.jpeg",
-    "static/media/2luzko.jpeg": "/PenzionRelease/static/media/2luzko.23726094bb8e47566155.jpeg",
-    "static/media/penzionlogo2.png": "/PenzionRelease/static/media/penzionlogo2.d37f4b2cab3bad3a7ee5.png",
-    "index.html": "/PenzionRelease/index.html",
-    "main.9e8ba75d.css.map": "/PenzionRelease/static/css/main.9e8ba75d.css.map",
-    "main.627a29be.js.map": "/PenzionRelease/static/js/main.627a29be.js.map",
-    "787.06ee9ce9.chunk.js.map": "/PenzionRelease/static/js/787.06ee9ce9.chunk.js.map"
+    "main.css": "/static/css/main.9e8ba75d.css",
+    "main.js": "/static/js/main.17cd05be.js",
+    "static/js/787.06ee9ce9.chunk.js": "/static/js/787.06ee9ce9.chunk.js",
+    "static/media/Penzion-Main.mp4": "/static/media/Penzion-Main.d8266b0dd72e40d9ae21.mp4",
+    "static/media/pilistata.JPG": "/static/media/pilistata.5be987a5938c70cc3b7d.JPG",
+    "static/media/ubytovani.JPG": "/static/media/ubytovani.a48367c1d9e74d1fadad.JPG",
+    "static/media/kamenec-leto.jpg": "/static/media/kamenec-leto.bfc42a27eaf8eeb26d25.jpg",
+    "static/media/krajina.JPG": "/static/media/krajina.ffa35356d40b765c7c08.JPG",
+    "static/media/4luzko.jpeg": "/static/media/4luzko.2ceffef94ebc41c9307f.jpeg",
+    "static/media/velkypokoj.jpeg": "/static/media/velkypokoj.e63d5c6c8ef728bf9dc8.jpeg",
+    "static/media/apartman.jpeg": "/static/media/apartman.181cfde23aada0ddfd5c.jpeg",
+    "static/media/2luzko.jpeg": "/static/media/2luzko.23726094bb8e47566155.jpeg",
+    "static/media/penzionlogo2.png": "/static/media/penzionlogo2.d37f4b2cab3bad3a7ee5.png",
+    "index.html": "/index.html",
+    "main.9e8ba75d.css.map": "/static/css/main.9e8ba75d.css.map",
+    "main.17cd05be.js.map": "/static/js/main.17cd05be.js.map",
+    "787.06ee9ce9.chunk.js.map": "/static/js/787.06ee9ce9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e8ba75d.css",
-    "static/js/main.627a29be.js"
+    "static/js/main.17cd05be.js"
   ]
 }
