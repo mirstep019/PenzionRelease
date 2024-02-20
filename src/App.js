@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './Pages/Home';
@@ -8,6 +8,15 @@ import Pricing from './Pages/Pricing';
 import Contacts from './Pages/Contacts';
 import { styled } from 'styled-components';
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,6 +41,7 @@ function App() {
   return (
     <>
         <Navbar menuOpen={menuOpen} toggleMenu={toggleMenu} windowWidth={windowWidth} />
+        <ScrollToTop/>
         <AppContainer>
           <Routes>
             <Route path="/" element={<Home />} />

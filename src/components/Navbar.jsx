@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import logosvg from "../img/logo.svg";
+import logosvg from "../img/penzionlogo2.png";
 import { FiMenu, FiX } from 'react-icons/fi';
 
 function Navbar({ menuOpen, toggleMenu, windowWidth }) {
@@ -115,7 +115,7 @@ const NavigationContainer = styled.div`
 
 const Logo = styled.img`
   margin: 0;
-  font-size: 1.5rem;
+  height: 10rem;
   cursor: pointer;
 `;
 

@@ -116,7 +116,7 @@ function Contacts() {
             <Icon><FaEnvelope /></Icon>
            Napište nám
           </ContactLink>
-          <ContactLink href="mailto:martinabre@seznam.cz">
+          <ContactLink href="https://www.facebook.com/PenzionBreuer">
             <Icon><FaFacebookSquare /></Icon>
            Facebook
           </ContactLink>

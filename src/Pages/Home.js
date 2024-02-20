@@ -6,7 +6,7 @@ import Krajina from "../img/krajina.JPG";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
 import Footer from "../components/Footer";
 import Video from "../img/Penzion-Main.mp4";
-import Fade from 'react-reveal/Fade';
+import Fade  from 'react-reveal/Fade';
 
 function Home() {
 

@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { StyledH1 } from "./Home";
 import Footer from "../components/Footer";
 import { Title } from "./Contacts";
 
@@ -36,7 +35,7 @@ const Description = styled.p`
 const Section = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 30px auto;
+  margin: 10px;
   border: 1px solid #ddd;
   width: 100%;
   border-radius: 10px;
@@ -138,6 +137,14 @@ function Pricing() {
         <Row>
           <RowTitle>Sleva pro děti 2 - 11 let</RowTitle>
           <RowPrice>Informace na vyžádání</RowPrice>
+        </Row>
+        <Row>
+          <RowTitle>Mazlíčci</RowTitle>
+          <RowPrice>nyní 100 Kč</RowPrice>
+        </Row>
+        <Row>
+          <RowTitle>Turistický poplatek městu</RowTitle>
+          <RowPrice>20 Kč</RowPrice>
         </Row>
       </Section>
       </CardContainer2>
