@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9e8ba75d.css",
-    "main.js": "/static/js/main.17cd05be.js",
+    "main.js": "/static/js/main.57f8bfde.js",
     "static/js/787.06ee9ce9.chunk.js": "/static/js/787.06ee9ce9.chunk.js",
     "static/media/Penzion-Main.mp4": "/static/media/Penzion-Main.d8266b0dd72e40d9ae21.mp4",
     "static/media/pilistata.JPG": "/static/media/pilistata.5be987a5938c70cc3b7d.JPG",
@@ -15,11 +15,11 @@
     "static/media/penzionlogo2.png": "/static/media/penzionlogo2.d37f4b2cab3bad3a7ee5.png",
     "index.html": "/index.html",
     "main.9e8ba75d.css.map": "/static/css/main.9e8ba75d.css.map",
-    "main.17cd05be.js.map": "/static/js/main.17cd05be.js.map",
+    "main.57f8bfde.js.map": "/static/js/main.57f8bfde.js.map",
     "787.06ee9ce9.chunk.js.map": "/static/js/787.06ee9ce9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e8ba75d.css",
-    "static/js/main.17cd05be.js"
+    "static/js/main.57f8bfde.js"
   ]
 }
