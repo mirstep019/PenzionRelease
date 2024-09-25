@@ -1,3 +1,16 @@
-# https://www.robotstxt.org/robotstxt.html
+# Penzion Breuer - Optimalizovaný robots.txt
 User-agent: *
-Disallow:
+Allow: /
+
+# Blokování přístupu k nepotřebným složkám
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+
+# Blokování přístupu k určitým typům souborů
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+
+# Sitemap pro lepší indexaci
+Sitemap: https://www.penzionbreuer.cz/sitemap.xml
