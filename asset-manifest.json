@@ -1,25 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.9e8ba75d.css",
-    "main.js": "/static/js/main.589a60bf.js",
+    "main.js": "/static/js/main.c8dfec73.js",
     "static/js/787.06ee9ce9.chunk.js": "/static/js/787.06ee9ce9.chunk.js",
     "static/media/Penzion-Main.mp4": "/static/media/Penzion-Main.d8266b0dd72e40d9ae21.mp4",
     "static/media/pilistata.JPG": "/static/media/pilistata.5be987a5938c70cc3b7d.JPG",
     "static/media/ubytovani.JPG": "/static/media/ubytovani.a48367c1d9e74d1fadad.JPG",
-    "static/media/kamenec-leto.jpg": "/static/media/kamenec-leto.bfc42a27eaf8eeb26d25.jpg",
     "static/media/krajina.JPG": "/static/media/krajina.ffa35356d40b765c7c08.JPG",
+    "static/media/pilistata.webp": "/static/media/pilistata.f2958d2c2039b7c02e5c.webp",
+    "static/media/krajina.webp": "/static/media/krajina.8fd61ccb78fb6a93e75b.webp",
     "static/media/4luzko.jpeg": "/static/media/4luzko.2ceffef94ebc41c9307f.jpeg",
+    "static/media/4luzko.webp": "/static/media/4luzko.844c8c8c9ba802ed8731.webp",
     "static/media/velkypokoj.jpeg": "/static/media/velkypokoj.e63d5c6c8ef728bf9dc8.jpeg",
+    "static/media/velkypokoj.webp": "/static/media/velkypokoj.c090892c169c5d9805eb.webp",
     "static/media/apartman.jpeg": "/static/media/apartman.181cfde23aada0ddfd5c.jpeg",
+    "static/media/apartman.webp": "/static/media/apartman.8df83577cee51664b92d.webp",
     "static/media/2luzko.jpeg": "/static/media/2luzko.23726094bb8e47566155.jpeg",
+    "static/media/kamenec-zima.jpg": "/static/media/kamenec-zima.b8223edd31255ab00e3c.jpg",
+    "static/media/2luzko.webp": "/static/media/2luzko.706c95d0d7b664066e09.webp",
+    "static/media/kamenec-zima.webp": "/static/media/kamenec-zima.7b2921e2548bfe28cf70.webp",
     "static/media/penzionlogo2.png": "/static/media/penzionlogo2.d37f4b2cab3bad3a7ee5.png",
     "index.html": "/index.html",
     "main.9e8ba75d.css.map": "/static/css/main.9e8ba75d.css.map",
-    "main.589a60bf.js.map": "/static/js/main.589a60bf.js.map",
+    "main.c8dfec73.js.map": "/static/js/main.c8dfec73.js.map",
     "787.06ee9ce9.chunk.js.map": "/static/js/787.06ee9ce9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e8ba75d.css",
-    "static/js/main.589a60bf.js"
+    "static/js/main.c8dfec73.js"
   ]
 }
