@@ -1,16 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 import { FaUserGroup } from "react-icons/fa6";
-import { FaCheck } from "react-icons/fa"; 
-import { Overlay, OverlayTitle, Section, StyledParagraph, UnderH1 } from "./Home";
+import { FaCheck } from "react-icons/fa";
+import {
+  Overlay,
+  OverlayTitle,
+  Section,
+  StyledParagraph,
+  UnderH1,
+} from "./Home";
 import Footer from "../components/Footer";
 import { Parallax } from "react-parallax";
-import Ubytovani from "../img/ubytovani.JPG";
-import DvouLuzko from "../img/2luzko.jpeg";
-import CtyrLuzko from "../img/4luzko.jpeg";
-import VelkyPokoj from "../img/velkypokoj.jpeg";
-import Apartman from "../img/apartman.jpeg";
-
+import UbytovaniJpg from "../img/ubytovani.JPG";
+import DvouLuzkoWebp from "../img/2luzko.webp";
+import DvouLuzkoJpg from "../img/2luzko.jpeg";
+import CtyrLuzkoWebp from "../img/4luzko.webp";
+import CtyrLuzkoJpg from "../img/4luzko.jpeg";
+import VelkyPokojWebp from "../img/velkypokoj.webp";
+import VelkyPokojJpg from "../img/velkypokoj.jpeg";
+import ApartmanWebp from "../img/apartman.webp";
+import ApartmanJpg from "../img/apartman.jpeg";
 
 const Page = styled.div`
   text-align: center;
@@ -23,7 +32,8 @@ function Accommodation() {
       description:
         "Samostatný apartmán s dvěmi ložnicemi, kuchyní a koupelnou.",
       capacity: "max. 8 osob",
-      image: Apartman,
+      imageWebp: ApartmanWebp,
+      imageJpg: ApartmanJpg,
       alt: "Apartmán",
     },
     {
@@ -31,21 +41,24 @@ function Accommodation() {
       description:
         "Velký pokoj s dvěmi ložnicemi a koupelnou - první ložnice: 2 osoby, druhá ložnice: 2-4 osoby.",
       capacity: "max. 6 osob",
-      image: VelkyPokoj,
+      imageWebp: VelkyPokojWebp,
+      imageJpg: VelkyPokojJpg,
       alt: "Velký pokoj",
     },
     {
       title: "Dvojlůžkový pokoj",
       description: "Dvojlůžkový pokoj s koupelnou.",
       capacity: "2 osoby",
-      image: DvouLuzko,
+      imageWebp: DvouLuzkoWebp,
+      imageJpg: DvouLuzkoJpg,
       alt: "Dvojlůžkový pokoj",
     },
     {
       title: "Čtyřlůžkový pokoj",
       description: "Čtyřlůžkový pokoj s koupelnou, kapacita 2-4 osoby.",
       capacity: "max. 4 osoby",
-      image: CtyrLuzko,
+      imageWebp: CtyrLuzkoWebp,
+      imageJpg: CtyrLuzkoJpg,
       alt: "Čtyřlůžkový pokoj",
     },
   ];
@@ -53,7 +66,7 @@ function Accommodation() {
   return (
     <Page>
       <Parallax
-        bgImage={Ubytovani}
+        bgImage={UbytovaniJpg} // Parallax: použijeme JPG kvůli kompatibilitě
         bgImageAlt="Penzion Breuer"
         strength={300}
         style={{ margin: "0px" }}
@@ -88,7 +101,15 @@ function Accommodation() {
       {apartments.map((apartment, index) => (
         <ApartmentSection key={index} reverse={index % 2 !== 0}>
           <ImageWrapper>
-            <ImageI src={apartment.image} alt={apartment.alt} />
+            <picture>
+              <source srcSet={apartment.imageWebp} type="image/webp" />
+              <ImageI
+                src={apartment.imageJpg}
+                alt={apartment.alt}
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </ImageWrapper>
           <Content>
             <UnderH1>{apartment.title}</UnderH1>
@@ -125,7 +146,6 @@ function Accommodation() {
       </FeaturesList>
 
       <Description>
-        {" "}
         Maximální kapacita našeho ubytovacího zařízení: 24-25 lidí
       </Description>
 
@@ -145,7 +165,6 @@ const StyledH1Main2 = styled.p`
     font-size: 40px;
   }
 `;
-
 
 const ApartmentSection = styled.section`
   display: flex;
@@ -191,7 +210,6 @@ const Content = styled.div`
   }
 `;
 
-
 const ImageI = styled.img`
   max-width: 100%;
   height: auto;
@@ -204,10 +222,9 @@ const ImageI = styled.img`
   @media (max-width: 768px) {
     max-width: 100%;
     padding: 0;
-    margin: 100px 0 0 0 ;
+    margin: 100px 0 0 0;
   }
 `;
-
 
 const FeaturesList = styled.ul`
   list-style: none;
@@ -254,7 +271,6 @@ const FeatureItem = styled.li`
     font-size: 14px;
   }
 `;
-
 
 const CheckIcon = styled(FaCheck)`
   color: green;

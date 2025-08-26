@@ -64,7 +64,7 @@ const SideMenu = styled.div`
   right: 0;
   width: 100%; 
   height: 100%; 
-  background-color: rgba(247, 232, 203, 0.95); 
+  background-color: rgb(247, 232, 203); 
   transform: ${props => (props.open ? 'translateX(0%)' : 'translateX(100%)')};
   transition: transform .3s ease-in-out;
   z-index: -1;
@@ -89,7 +89,7 @@ const Navigation = styled.nav`
   z-index: 999;
   margin: 0 auto;
   position: ${props => (props.Hide ? 'relative' : 'sticky')};
-  background-color: ${props => (props.Transparent ? 'rgba(247, 232, 203, 0.907)' : '#f7e8cb')};
+  background-color: ${props => (props.Transparent ? 'rgb(247, 232, 203)' : '#f7e8cb')};
   top: ${props => (props.Hide ? '-100px' : '0')};
   transition: top 1.5s, background-color 0.7s;
 

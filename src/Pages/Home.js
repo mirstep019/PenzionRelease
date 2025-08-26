@@ -1,15 +1,21 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import Kamenec from "../img/kamenec-leto.jpg";
-import Park from "../img/pilistata.JPG";
-import Krajina from "../img/krajina.JPG";
+
+import KamenecWebp from "../img/kamenec-zima.webp";
+import KamenecJpg from "../img/kamenec-zima.jpg";
+
+import ParkWebp from "../img/pilistata.webp";
+import ParkJpg from "../img/pilistata.JPG";
+
+import KrajinaWebp from "../img/krajina.webp";
+import KrajinaJpg from "../img/krajina.JPG";
+
 import { FaPhone, FaEnvelope } from "react-icons/fa";
 import Footer from "../components/Footer";
 import Video from "../img/Penzion-Main.mp4";
-import Fade  from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
 function Home() {
-
   return (
     <Page>
       <ParallaxContainer>
@@ -44,7 +50,6 @@ function Home() {
       <Section>
         <Fade bottom>
           <StyledH1Main>Penzion Breuer</StyledH1Main>
-
         </Fade>
         <Fade bottom>
           <UnderH1>Rodinný penzion z Krkonoš</UnderH1>
@@ -52,43 +57,49 @@ function Home() {
         <Fade bottom>
           <StyledParagraph>
             Penzion Breuer se nachází v srdci Krkonoš, v malebném městečku
-            Jablonec nad Jizerou, které je ideálním místem pro milovníky přírody a
-            turistiky. Náš rodinný penzion nabízí přátelskou atmosféru a pohodlí,
-            které ocení každý náš host. Okolí penzionu je jako stvořené pro pěší i
-            cyklistické výlety, a v zimě se můžete těšit na skvělé lyžařské
-            podmínky v blízkých střediscích.
+            Jablonec nad Jizerou, které je ideálním místem pro milovníky přírody
+            a turistiky. Náš rodinný penzion nabízí přátelskou atmosféru a
+            pohodlí, které ocení každý náš host. Okolí penzionu je jako stvořené
+            pro pěší i cyklistické výlety, a v zimě se můžete těšit na skvělé
+            lyžařské podmínky v blízkých střediscích.
           </StyledParagraph>
         </Fade>
         <Fade bottom>
           <StyledParagraph>
             V blízkosti penzionu najdete také řadu historických památek a
-            kulturních zajímavostí, které vám přiblíží místní historii a tradice.
-            Velmi rádi Vám kdykoliv s čímkoliv během pobytu pomůžeme a poradíme,
-            kam třeba vyrazit na výlet a jak si váš pobyt u nás co nejvíce užít.
+            kulturních zajímavostí, které vám přiblíží místní historii a
+            tradice. Velmi rádi Vám kdykoliv s čímkoliv během pobytu pomůžeme a
+            poradíme, kam třeba vyrazit na výlet a jak si váš pobyt u nás co
+            nejvíce užít.
           </StyledParagraph>
         </Fade>
-
       </Section>
 
       <Section2>
         <ContentPic>
-          <Fade left>
-            <StyledImage src={Kamenec} alt="Park" />
-          </Fade>
+            <picture>
+              <source srcSet={KamenecWebp} type="image/webp" />
+              <StyledImage
+                src={KamenecJpg}
+                alt="Foto Kamence v zimě"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
         </ContentPic>
         <ContentText>
           <Fade bottom>
             <UnderH1>Lyžování v Krkonoších</UnderH1>
             <StyledParagraph>
               V zimě si u nás výborně zalyžujete v místním lyžařském arealu
-              Kamenec. Z penzionu na sjezdovku vidíte z oken. Jsme ideálním bodem
-              pro strávení Vaší dovolené, pokud chcete vyzkoušet více lyžařských
-              středisek. V dojezdné době 10 minut je od nás Rokytnice nad Jizerou,
-              Paseky nad Jizerou, Vysoké nad Jizerou či Harrachov! Můžete jít také
-              na běžky či se jen tak projít a poznat krásy Krkonoš.
+              Kamenec. Z penzionu na sjezdovku vidíte z oken. Jsme ideálním
+              bodem pro strávení Vaší dovolené, pokud chcete vyzkoušet více
+              lyžařských středisek. V dojezdné době 10 minut je od nás Rokytnice
+              nad Jizerou, Paseky nad Jizerou, Vysoké nad Jizerou či Harrachov!
+              Můžete jít také na běžky či se jen tak projít a poznat krásy
+              Krkonoš.
             </StyledParagraph>
           </Fade>
-
         </ContentText>
       </Section2>
 
@@ -104,24 +115,36 @@ function Home() {
             <StyledParagraph>
               Kousek od hřiště naleznete také koupaliště, které je v letních
               měsících dokonalým útočištěm pro osvěžení. Čistá voda, příjemné
-              prostředí a dostatek místa pro relaxaci z něj činí ideální místo pro
-              odpočinek i zábavu. Zde můžete strávit klidné odpoledne s knihou v
-              ruce, nebo se ponořit do osvěžující vody.
+              prostředí a dostatek místa pro relaxaci z něj činí ideální místo
+              pro odpočinek i zábavu. Zde můžete strávit klidné odpoledne s
+              knihou v ruce, nebo se ponořit do osvěžující vody.
             </StyledParagraph>
           </Fade>
         </ContentText>
         <ContentPic>
-          <Fade right>
-            <StyledImage src={Park} alt="Park" />
-          </Fade>
+            <picture>
+              <source srcSet={ParkWebp} type="image/webp" />
+              <StyledImage
+                src={ParkJpg}
+                alt="Park"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
         </ContentPic>
       </Section2>
 
       <Section2>
         <ContentPic>
-          <Fade left>
-            <StyledImage src={Krajina} alt="Krkonoše v létě" />
-          </Fade>
+            <picture>
+              <source srcSet={KrajinaWebp} type="image/webp" />
+              <StyledImage
+                src={KrajinaJpg}
+                alt="Krkonoše v létě"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
         </ContentPic>
         <ContentText>
           <Fade bottom>
@@ -131,18 +154,17 @@ function Home() {
               nesčetné příležitosti pro milovníky přírody a aktivního odpočinku.
               Penzion Breuer je vaším bránou do světa horských výletů,
               cyklistických tras a nezapomenutelných rodinných dobrodružství.
-              Objevujte skryté kouzlo Krkonoš nebo Jizerských hor, bujných lesů a
-              krystalicky čistých horských potoků.
+              Objevujte skryté kouzlo Krkonoš nebo Jizerských hor, bujných lesů
+              a krystalicky čistých horských potoků.
             </StyledParagraph>
             <StyledParagraph>
               V blízkém okolí penzionu na vás čekají historické památky, lokální
-              kulturní akce a tradiční krkonošská gastronomie. Ať už se vydáte na
-              pěší vandr nebo si užíváte klidných chvil v parku pod penzionem,
-              léto v Krkonoších je plné malebných výhledů, přátelské atmosféry a
-              nezapomenutelných zážitků.
+              kulturní akce a tradiční krkonošská gastronomie. Ať už se vydáte
+              na pěší vandr nebo si užíváte klidných chvil v parku pod
+              penzionem, léto v Krkonoších je plné malebných výhledů, přátelské
+              atmosféry a nezapomenutelných zážitků.
             </StyledParagraph>
           </Fade>
-
         </ContentText>
       </Section2>
 
@@ -169,7 +191,6 @@ const VideoWrapper = styled.div`
     object-fit: cover; // Ensure it covers the whole area without stretching
   }
 `;
-
 
 const Space = styled.div`
   margin-bottom: 95vh;
@@ -268,7 +289,6 @@ const Page = styled.div`
   text-align: center;
 `;
 
-
 export const Section = styled.div`
   margin: 0 auto;
   padding: 50px 20px;
@@ -362,7 +382,6 @@ const ContentText = styled.div`
     margin: 45px 0 0 0;
   }
 `;
-
 
 const StyledImage = styled.img`
   max-width: 100%;

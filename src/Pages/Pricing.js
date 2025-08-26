@@ -97,20 +97,20 @@ function Pricing() {
       <CardContainer2>
         <Card>
           <Title2>Apartmán</Title2>
-          <Price>od 650 Kč / osoba / noc</Price>
+          <Price>od 700 Kč / osoba / noc</Price>
           <Description>
             Prostorný apartmán s dvěmi ložnicemi, ideální pro rodiny.
           </Description>
         </Card>
 
-        <Card>
+        {/* <Card>
           <Title2>Standardní ubytování</Title2>
-          <Price>od 500 Kč / osoba / noc</Price>
+          <Price>od 600 Kč / osoba / noc</Price>
           <Description>
             Ubytování v našem penzionu s plným komfortem.
           </Description>
         </Card>
-      
+       */}
 
       <Section>
         <SectionTitle>Další služby</SectionTitle>
@@ -119,12 +119,20 @@ function Pricing() {
           <RowPrice>180 Kč / osoba</RowPrice>
         </Row>
         <Row>
-          <RowTitle>Standartní ubytování v zimním období (23.12. - 31.3.)</RowTitle>
-          <RowPrice>od 500 Kč / osoba / noc</RowPrice>
+          <RowTitle>Ubytování v období: Říjen - Duben</RowTitle>
+          <RowPrice>od 650 Kč / osoba / noc</RowPrice>
         </Row>
         <Row>
-          <RowTitle>Mimosezónní ubytování</RowTitle>
-          <RowPrice>od 400 Kč / osoba / noc</RowPrice>
+          <RowTitle>Ubytování v období: Květen - Září</RowTitle>
+          <RowPrice>od 550 Kč / osoba / noc</RowPrice>
+        </Row>
+        <Row>
+          <RowTitle>Turistický poplatek městu</RowTitle>
+          <RowPrice>20 Kč</RowPrice>
+        </Row>
+        <Row>
+          <RowTitle>Mazlíčci</RowTitle>
+          <RowPrice>100 Kč / noc</RowPrice>
         </Row>
         <Row>
           <RowTitle>Děti do 2 let</RowTitle>
@@ -139,12 +147,12 @@ function Pricing() {
           <RowPrice>Informace na vyžádání</RowPrice>
         </Row>
         <Row>
-          <RowTitle>Mazlíčci</RowTitle>
-          <RowPrice>nyní 100 Kč</RowPrice>
+          <RowTitle>Příplatek za jednu osobu na pokoji</RowTitle>
+          <RowPrice>Informace na vyžádání</RowPrice>
         </Row>
         <Row>
-          <RowTitle>Turistický poplatek městu</RowTitle>
-          <RowPrice>20 Kč</RowPrice>
+          <RowTitle>Příplatek za jednu noc</RowTitle>
+          <RowPrice>Informace na vyžádání</RowPrice>
         </Row>
       </Section>
       </CardContainer2>
