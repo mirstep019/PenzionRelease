@@ -5,11 +5,11 @@ function Footer() {
   return (
     <Footeros>
       <FooterText>
-        All rights reserved &copy; {new Date().getFullYear()}
+        All rights reserved &copy; {new Date().getFullYear()} Penzion Breuer
       </FooterText>
-      <FooterLink href="https://www.instagram.com/mirasstep/" target="_blank">
+      {/* <FooterLink href="https://www.instagram.com/mirasstep/" target="_blank">
         @mirasstep
-      </FooterLink>
+      </FooterLink> */}
     </Footeros>
   );
 }
@@ -46,14 +46,14 @@ const FooterText = styled.p`
   text-transform: uppercase;
 `;
 
-const FooterLink = styled.a`
-  font-family: "Titillium Web", sans-serif;
-  color: #d4af37;
-  text-decoration: none;
-  font-size: 1.1rem;
-  margin-left: 10px;
-  font-weight: 700;
-  letter-spacing: 0.02rem;
-`;
+// const FooterLink = styled.a`
+//   font-family: "Titillium Web", sans-serif;
+//   color: #d4af37;
+//   text-decoration: none;
+//   font-size: 1.1rem;
+//   margin-left: 10px;
+//   font-weight: 700;
+//   letter-spacing: 0.02rem;
+// `;
 
 export default Footer;
